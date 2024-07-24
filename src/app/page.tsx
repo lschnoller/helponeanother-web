@@ -132,7 +132,7 @@ export default function Home() {
               <AiIcons.AiOutlineDollar className="text-4xl text-white mb-4" />
               <h3 className="text-lg font-medium text-white mb-2 text-center">Accounts Receivable</h3>
               <p className="text-gray-300 text-center">
-                Add your service contracts and let us follow-up with your clients' payments.
+                Add your service contracts and let us follow-up with your clients&apos; payments.
               </p>
             </div>
             <div className="flex flex-col items-center">
