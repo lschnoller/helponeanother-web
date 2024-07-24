@@ -102,7 +102,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-8">
             <div className="flex flex-col items-center">
               <AiIcons.AiOutlineFund className="text-4xl text-white mb-4" />
-              <h3 className="text-lg font-medium text-white mb-2 text-center">Automated Finance Results</h3>
+              <h3 className="text-lg font-medium text-white mb-2 text-center">AI Automated Financial Results</h3>
               <p className="text-gray-300 text-center leading-snug">
                 Simple. Get a clear idea of your results just by importing your bank statements.
               </p>
