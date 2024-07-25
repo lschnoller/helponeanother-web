@@ -1,6 +1,6 @@
 const AboutUs = () => (
     <section id="about-us" className="py-10 px-5 text-gray-100">
-        <div className="container mx-auto">
+        <div className="container mx-auto" style={{ maxWidth: '990px' }}>
             <h2 className="text-3xl font-bold mb-5">About Us</h2>
             <p className="mb-4">
                 We are a passionate startup based in Brazil, dedicated to solving accounting and finance challenges for families and startups. Our mission is to empower individuals and small businesses by providing innovative solutions that simplify financial management and promote economic growth.
