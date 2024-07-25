@@ -32,7 +32,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/original-lbw.tsx.bak"
+    "src/app/original-lbw.tsx.bak",
+    "src/app/components/**/*.ts"
   ],
   "exclude": [
     "node_modules"
