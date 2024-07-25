@@ -3,7 +3,7 @@ const AboutUs = () => (
         <div className="container mx-auto">
             <h2 className="text-3xl font-bold mb-5">About Us</h2>
             <p className="mb-4">
-                Welcome to HelpOneAnother.net! We are a passionate startup based in Brazil, dedicated to solving accounting and finance challenges for families and startups. Our mission is to empower individuals and small businesses by providing innovative solutions that simplify financial management and promote economic growth.
+                We are a passionate startup based in Brazil, dedicated to solving accounting and finance challenges for families and startups. Our mission is to empower individuals and small businesses by providing innovative solutions that simplify financial management and promote economic growth.
             </p>
             <p className="mb-4">
                 At HelpOneAnother, we understand the complexities of managing finances in today's fast-paced world. Our team of experts is committed to developing user-friendly tools and services that make financial administration easier and more accessible. Whether you're looking to streamline your personal budget, manage your family's finances, or optimize your startup's accounting processes, we have the solutions you need.
