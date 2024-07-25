@@ -167,8 +167,8 @@ export default function Home() {
           <AboutUs />
         )}
       </main>
-      <footer>
-
+      <footer className="text-center pb-10">
+        &copy; 2024 Help One Another LTDA. All rights reserved.
       </footer>
     </div>
   );
