@@ -35,7 +35,7 @@ export default function Home() {
   };
 
   return (
-    <div className="w-full min-h-screen mx-auto bg-gradient-to-br from-sky-blue-light to-sky-blue-dark">
+    <div className="w-full min-h-screen mx-auto bg-gradient-to-br from-sky-blue-light to-sky-blue-dark" id="top">
       <Head>
         <title>Help One Another | Your finances made simple.</title>
         <meta name="description" content="Import your statements and let us do the rest." />
@@ -44,31 +44,37 @@ export default function Home() {
       <header className={`fixed top-0 w-full transition-all duration-500 flex justify-between items-center px-10 py-4 ${isScrolled ? 'bg-gray-800' : ''}`}>
 
         <div className="relative md:hidden">
-          <Image
-            src="/hoa-iso-logo-bw.png"
-            alt="Help One Another Logo"
-            width={200}
-            height={70}
-            priority
-          />
+          <a href='#top' onClick={() => handleNavClick('services')}>
+            <Image
+              src="/hoa-iso-logo-bw.png"
+              alt="Help One Another Logo"
+              width={200}
+              height={70}
+              priority
+            />
+          </a>
         </div>
         <div className="relative hidden md:block 2xl:hidden">
-          <Image
-            src="/hoa-iso-logo-bw.png"
-            alt="Help One Another Logo"
-            width={300}
-            height={70}
-            priority
-          />
+          <a href='#top' onClick={() => handleNavClick('services')}>
+            <Image
+              src="/hoa-iso-logo-bw.png"
+              alt="Help One Another Logo"
+              width={300}
+              height={70}
+              priority
+            />
+          </a>
         </div>
         <div className="relative hidden 2xl:block">
-          <Image
-            src="/hoa-iso-logo-bw.png"
-            alt="Help One Another Logo"
-            width={350}
-            height={70}
-            priority
-          />
+          <a href='#top' onClick={() => handleNavClick('services')}>
+            <Image
+              src="/hoa-iso-logo-bw.png"
+              alt="Help One Another Logo"
+              width={350}
+              height={70}
+              priority
+            />
+          </a>
         </div>
         <nav>
           <ul className="flex gap-5">
